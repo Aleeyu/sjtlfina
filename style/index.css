@@ -548,7 +548,8 @@ div.btnLeft{
 }
 }
 .erma{
-  width: 1200px;
+  display: block;
+  max-width: 1200px;
   margin: 0 auto;
 }
 .erma img{
