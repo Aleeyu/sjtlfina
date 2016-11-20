@@ -1,0 +1,243 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+.side-bar>div{
+  width: 200px;
+  color: white;
+  padding-left: 50px;
+  line-height: 50px;
+  font-size: 1.3333333rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+.side-bar{
+  width: 300px;
+  height: 100px;
+  position: fixed;
+  
+  right: -150px;
+  top: 40%;
+}
+.side-phone{
+  height: 50px;
+  background: url(../images/bg.png) 0 -782px no-repeat #6dc7cf;
+  border-bottom: 2px solid gray;
+  position: absolute;
+  left: 100px;
+  top:52px;
+}
+.side-qq{
+  height: 50px;
+  background: url(../images/bg.png) 0 -732px no-repeat #6dc7cf;
+  position: absolute;
+  left: 100px;
+  top:0;
+}
+.side-qq a{
+  color: white;
+}
+.error {
+      color: white;
+      font-size: 1.33333rem;
+      text-indent: 10px;
+    }
+
+html{
+  font-size: 12px;
+  font-family: "微软雅黑","Arial", "Helvetica";/*设置了字体*/
+}
+li{
+  list-style: none;
+}
+a{
+  display: inline-block;
+  text-decoration: none;
+}
+.rt{
+  float: right;
+}
+.lf{
+  float: left;
+}
+.cl{
+  display: table;
+  content: "";
+  clear:both;
+}
+/***************head-top*********************/
+.small{
+background:#f3f3f3;
+display: none;
+position: relative;
+}
+.small button{
+  display: inline-block;
+position: absolute;
+right: 40px;
+top: 20px;
+width: 60px;
+height: 30px;
+}
+@media screen and (max-width:435px){
+    .small{
+display: block;
+text-align: center;
+}
+p.fot{
+  text-indent: 10px;
+}
+.small a{
+  letter-spacing: 30px;
+  display: block;
+  color:white;
+  border-bottom: 1px solid gray;
+  font-weight: bold;
+  padding:10px 0;
+  color: gray;
+  background:#f3f3f3;
+}
+div.headnav{
+      display: none;
+    }
+  div.banner{
+    height: 200px;
+    margin-top: 6px;
+  }
+  .banner ul li a img{
+    height: 200px;
+  }
+  
+}
+
+.head-top{
+    display: inline-block;
+    height: 6px;
+    width: 50%;
+    background-color: #eaeef1;
+    vertical-align: top;
+}
+.head-top-red{
+    display: inline-block;
+    height: 6px;
+}
+.head-top-red img{
+    vertical-align: top;
+    margin-left: -3px;
+}
+/**************************public**************/
+
+h2.title{
+  text-align: center;
+  height: 98px;
+  line-height: 98px;
+  font-size: 2.16666em;
+  color: #666666;
+}
+h2.title span{
+  margin-left: 18px;
+  font-weight: normal;
+  font-size: 0.7em;
+}
+/*****************
+*********header*****
+**************************/
+.container{
+  width: 100%;
+  overflow: hidden;
+}
+.header{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.header ul li a.ac{
+  color: #e44629;
+}
+/***********************************改***************/
+.logo{
+  margin-top: 25px;
+}
+.nav{
+  height: 90px;
+  width: 920px;
+}
+.nav .warp{
+  height: 50px;
+width: 200%;
+  margin-top: 40px;
+  background: url(../images/nav-bg.png) 0 0 repeat-x;
+}
+.nav ul{
+  height: 50px;
+  padding-left: 76px;
+   background: url(../images/bg.png) 0 -128px no-repeat;
+}
+.nav ul li{
+  float: left;
+  padding: 4px 0;
+}
+.nav ul li a{
+ padding: 12px 16px;
+  color: #fff;
+  font-size: 1.33333em;
+  font-weight: bold;
+  border-right: 1px solid #222a2e;
+}
+.nav ul li a{
+  border-left: 1px solid #475a6c;
+}
+.nav ul li a.ac{
+  border-left: none;
+}
+.nav ul li a:hover{
+  color: #e44629;
+}
+/*****************
+*********header*****
+**************************/
+.container{
+  width: 100%;
+  overflow: hidden;
+}
+.header{
+  max-width: 1200px;
+  
+  margin: 0 auto;
+}
+/*****************
+*********footer*****
+**************************/
+.foot{
+  height: 50px;
+  background: #3a4950;
+}
+.footer{
+  max-width: 1200px;
+  height: 50px;
+  background: #2f3a40;
+}
+.fot{
+  color: white;
+  font-size: 1.25em;
+  text-indent: 120px;
+  line-height: 50px;
+  height: 50px;
+  background: url(../images/fot.png) 0 -78px no-repeat;
+  background-position: right;
+}

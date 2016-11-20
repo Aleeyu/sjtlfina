@@ -1,0 +1,127 @@
+/*********************content***************/
+.content{
+  margin-top: 16px;
+}
+.bg{
+  background: url(../images/img-desi/case-bg.png) 0 0 no-repeat;
+  background-size: 100% 300px;
+text-align: center;
+  height: 300px;
+}
+.listbox{
+  width: 1200px;
+  margin: 0 auto;
+}
+.list-warp{
+  width: 600px;
+  position: relative;
+  height: 124px;
+}
+.item{
+  height: 124px;
+  /*border-left: 2px solid #eaeef1;*/
+}
+.msg{
+  color: #666666;
+  padding:38px 34px 20px 34px;
+}
+.msg h3{
+  font-size: 1.33333em;
+}
+.msg p{
+  width: 370px;
+  line-height: 22px;
+}
+.pic{
+  height: 124px;
+  width: 158px;
+  line-height: 124px;
+  position: relative;
+}
+.pic img{
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 64px;
+  bottom: 0;
+}
+.pic span{
+  display: inline-block;
+  position: absolute;
+  left: -12px;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  width: 22px;
+  height: 22px;
+  background: #6dc7cf;
+  border-radius: 50%;
+}
+div.listbox:nth-child(2n) .list-warp{
+  float: left;
+ /*border-right: 2px solid #eaeef1;*/
+}
+div.listbox:nth-child(2n) .list-warp .item{
+  border-left: 2px solid transparent;
+}
+div.listbox:nth-child(2n) .list-warp .item .pic{
+  float: right;
+}
+div.listbox:nth-child(2n) .list-warp .item .pic img{
+right: 64px;
+left: 14px;
+}
+div.listbox:nth-child(2n) .list-warp .item .msg h3{
+text-align: right;
+}
+div.listbox:nth-child(2n) .list-warp .item .msg{
+  float: left;
+}
+div.listbox:nth-child(2n) .list-warp span{
+  right: -176px;
+}
+.control-group{
+  padding-top: 40px;
+  text-align: center;
+  margin: 0 auto;
+  width: 1200px;
+  padding-bottom: 50px;
+}
+.control-group a.btn-bt{
+  border: 1px solid #666666;
+  border-radius: 10px;
+  padding: 10px 16px;
+  font-size: 1.3333em;
+  color: #666666;
+}
+.control-group a.btn-bt:hover{
+  color: white;
+  background: #e44629;
+}
+.control-group a.btn{
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  background: #eaeef1;
+  border-radius: 50%;
+}
+.control-group a.btn+a.btn{
+  margin-left: 168px;
+}
+.control-group a.btn:hover{
+  background: #e44629;
+  color: white;
+  box-shadow: 0 0 4px 4px #dfb4ac;
+}
+.control-group a.act{
+  background: #e44629;
+  color: white;
+  box-shadow: 0 0 4px 4px #dfb4ac;
+}
+.btn-prev{
+  margin-right: 40px;
+}
+.btn-next{
+  margin-left: 40px;
+}

@@ -1,0 +1,132 @@
+/*********************content***************/
+.button-group{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.button-group >ul{
+  padding: 30px 200px;
+}
+.button-group >ul>li{
+  padding: 16px 134px;
+  /*background: url(../images/bg.png) 0 0 no-repeat;*/
+  border: 1px solid #eaeef1;
+  font-size: 1.333333em;
+  
+  cursor: pointer;
+}
+.button-group >ul .nq{
+  background: url(../images/bg.png) 73px -1208px no-repeat;
+}
+.button-group >ul .kt{
+  background: url(../images/bg.png) 77px -1256px no-repeat;
+}
+
+.button-group >ul li.nq:hover,.button-group >ul li.nq.active{
+  background: url(../images/bg.png) 73px -1162px no-repeat #6dc7cf;
+  color: white;
+}
+.button-group >ul li.kt:hover,.button-group >ul li.kt.active{
+  background: url(../images/bg.png) 77px -1302px no-repeat #6dc7cf;
+  color: white;
+}
+
+.button-group >ul>li+li{
+  margin-left: 38px;
+  color: #666666;
+  
+}
+.bg{
+  background: url(../images/img-cus/bg.png) 0 0 no-repeat;
+  background-size: 100% 300px;
+  
+text-align: center;
+  height: 300px;
+  
+}
+.main{
+  margin: 0 auto;
+  max-width: 1200px;
+  
+}
+
+.lc-item{
+  padding-left: 112px;
+  height: 130px;
+}
+.lc-item h3{
+  font-size: 1.5rem;
+  color: #2f3a40;
+  height: 42px;
+}
+.lc-item p{
+  font-size: 1.16666666rem;
+  color: #666666;
+  line-height: 26px;
+  /*text-indent: 20px;*/
+}
+.zx{
+   background: url(../images/bg.png) 8px -1356px no-repeat;
+}
+.cli{
+   background: url(../images/bg.png) 8px -1486px no-repeat;
+}
+.az{
+   background: url(../images/bg.png) 8px -1616px no-repeat;
+}
+.by{
+   background: url(../images/bg.png) 8px -1746px no-repeat;
+}
+.wh{
+   background: url(../images/bg.png) 8px -1876px no-repeat;
+}
+.sh{
+  color: #666666;
+  font-size: 16px;
+  
+}
+.sh>p{
+  line-height: 36px;
+  text-indent: 32px;
+}
+.sh>h3{
+  color: black;
+}
+.sh>h3>span{
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #e44629;
+  margin-right: 10px;
+}
+.par{
+  width:1200px;
+
+}
+.par>div{
+  float: left;
+  width: 566px;
+}
+.par h3{
+  color: black;
+  margin-bottom: 20px;
+}
+.par-item{
+  padding:20px 10px 20px 24px;
+  float: left;
+}
+.par-item p{
+  line-height: 24px;
+}
+.par-item img{
+  width: 179px;
+  height: 207px;
+}
+div.intro{
+  width: 376px;
+}
+h2{
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 36px;
+}

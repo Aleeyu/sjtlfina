@@ -1,0 +1,118 @@
+/*********************content***************/
+.bg{
+  background: url(../images/img-desi/case-bg.png) 0 0 no-repeat;
+  background-size: 100% 300px;
+  
+text-align: center;
+  height: 300px;
+}
+.main-box{
+  width: 1200px;
+  margin: 0 auto;
+}
+.person{
+  padding: 26px 38px;
+}
+.pic img{
+  width: 150px;
+  height: 200px;
+}
+.msg{
+  width: 958px;
+  padding-left: 12px;
+}
+.msg p{
+  padding-left: 30px;
+  text-indent: 30px;
+  color: #666666;
+  line-height: 30px;
+}
+.msg h3{
+ font-size: 1.333333em;
+  color: #666666;
+  font-weight: normal;
+}
+.desicase h3{
+  color: #666666;
+  font-size: 1.333333em;
+  border-left: 3px solid #e44629;
+  height: 20px;
+  text-indent: 22px;
+}
+
+.desicase ul li{
+  cursor: pointer;
+  float: left;
+  padding: 20px 25px;
+}
+.desicase ul li p{
+  font-size: 1.33333em;
+ text-align: center;
+  padding: 20px 0px;
+}
+/*****************
+*********mask*****
+**************************/
+.mask{
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.6);
+  display: none;
+}
+.box{
+  width: 900px;
+  height: 530px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  top: 0;
+  margin: auto;
+}
+.control{
+  height: 100px;
+  line-height: 100px;
+  width: 900px;
+}
+.control span{
+  cursor: pointer;
+  display: inline-block;
+  width: 42px;
+  height: 42px;
+  background: url(../images/img-desi-more/close.png) 0 0 no-repeat;
+}
+.list-box .btn{
+  width: 50px;
+padding: 0 20px;
+  color: white;
+ height: 380px;
+ line-height: 380px;
+ font-size: 5em;
+ text-align: center;
+ cursor: pointer;
+}
+.list-box .btn:hover{
+  color: black;
+}
+.pic-list img,.pic-list,.pic-list ol{
+  width: 640px;
+  height: 380px;
+}
+.pic-list p{
+ color: white;
+ font-size: 2.75em;
+ text-align: center;
+}
+.pic-list ol{
+  position: relative;
+}
+.pic-list ol li{
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: none;
+}
+

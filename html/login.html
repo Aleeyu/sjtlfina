@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>世纪天伦舒适家</title>
+	<style>
+		*{
+			margin:0;
+			padding:0;
+
+		}
+		li{
+			list-style: none;
+		}
+		html,body,.box-logo,.container{
+			height: 100%;
+		}
+		div.box{
+			height: 100%;
+		}
+		.container{
+			background: url(../images/img-login/bg.jpg) 0 0 no-repeat;
+			
+			background-size: 100% 100%; 
+
+		}
+		.login{
+
+			z-index: 100;
+			position: fixed;
+			left: 50%;
+			top: 50%;
+			-webkit-transform: translate(-50%,-50%);
+			-ms-transform: translate(-50%,-50%);
+			-moz-transform: translate(-50%,-50%);
+			transform: translate(-50%,-50%);
+		}
+		form div{
+			width: 624px;
+			height: 106px;
+			text-align: center;
+			line-height: 106px;
+		}
+		form div.user{
+			background:url(../images/img-login/up.png);
+		}
+		form div.user input{
+			background:url(../images/img-login/user.png) no-repeat;
+		}
+		form div.pwd{
+			background: url(../images/img-login/bottom.png);
+		}
+		form div.pwd input{
+			background:url(../images/img-login/pass.png) no-repeat;
+		}
+		form div input{
+			color: white;
+			padding-left: 35px;
+			height: 35px;
+			outline: none;
+			border: none;
+			text-indent: 10px;
+			font-size: 1.3333333rem;
+		}
+		h1{
+			text-align: center;
+			color: white;
+			background: #1378cd;
+			padding: 0;
+			margin: 0;
+			line-height: 100px;
+		}
+		button{
+			display: block;
+			width: 100%;
+			font-size: 22px;
+			text-align: center;
+			line-height: 100px;
+			border: none;
+			outline: none;
+			height: 100px;
+			color: white;
+			background: #1378cd;
+			letter-spacing: 40px;
+			cursor: pointer;
+		}
+	</style>
+</head>
+<body>
+<div class="box">
+<div class="box-logo">
+	<div class="container">
+		<img src="../images/img-login/login_bg.jpg" alt="">
+	</div>
+	<div class="login">
+		<h1>世纪天伦舒适家后台管理系统</h1>
+		<form id="formlogin" action="../php/login.php">
+			<div class="user"><input type="text" name="user" id="user" placeholder="请输入用户名"></div>
+			<div class="pwd"><input type="password" name="pwd" id="pwd" placeholder="请输入密码"></div>
+			<button type="button" id="loginsubmit">登录</button>
+		</form>
+	</div>
+	</div>
+	<div class="guanli"  style="display:none">
+		<ul>
+			<li data-n=".news">新闻管理</li>
+			<li data-n=".anli">案例管理</li>
+			<li data-n=".liuyan">留言管理</li>
+		</ul>
+		<div class="news" style="display:block">
+		<h1>新闻管理</h1>
+			<div class="news-g">
+				<form action="../php/newsadd.php" method="post" enctype="multipart/form-data">
+					选择图片：<input type="file" name="img" id="n-img" value="">
+					标题：<input type="text" name="title" id="n-title">
+					发布时间也要发过去<br>
+					新闻内容: <textarea name="msg" id="n-msg" cols="30" rows="10"></textarea>
+					<!-- <button type="button" id="n-btn">提交</button> -->
+					<input type="submit" value="提交">
+				</form>
+			</div>
+			<div class="new-list neww-list">
+				
+			</div>
+		</div>
+		<div class="anli">
+		<h1>案例管理</h1>
+			<div class="anli-g">
+				<form action="../php/anliadd.php" method="post" enctype="multipart/form-data">
+					选择图片：<input type="file" name="img[]" id="a-img" value="" multiple="multiple">
+					标题：<input type="text" name="title" id="a-title">
+					案例分类: 暖气：<input type="radio" name="lei" id="" value="nq">
+					空调：<input type="radio" name="lei" id="" value="kt">
+					新风：<input type="radio" name="lei" id="" value="xf">
+					净水：<input type="radio" name="lei" id="" value="js">
+					发布时间也要发过去<br>
+					案例描述: <textarea name="msg" id="a-msg" cols="30" rows="10"></textarea>
+					<!-- <button type="button">提交</button> -->
+					<input type="submit" value="提交">
+				</form>
+			</div>
+			<div class="new-list an-list">
+				
+			</div>
+		</div>
+		<div class="liuyan">
+		<h1>留言管理</h1>
+		
+		</div>
+	</div>
+</div>
+	<script src="../js/jquery-1.12.3.min.js"></script>
+    <script src="../js/login.js"></script>
+</body>
+</html>

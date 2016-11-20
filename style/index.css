@@ -1,0 +1,549 @@
+/***********************************改***************/
+.logo{
+  margin-top: 25px;
+}
+.nav{
+  height: 90px;
+  width: 920px;
+}
+.nav .warp{
+  height: 50px;
+width: 200%;
+  margin-top: 40px;
+  background: url(../images/nav-bg.png) 0 0 repeat-x;
+}
+.nav ul{
+  height: 50px;
+  padding-left: 76px;
+   background: url(../images/bg.png) 0 -128px no-repeat;
+  
+}
+.nav ul li{
+  float: left;
+  padding: 4px 0;
+}
+.nav ul li a{
+ padding: 12px 16px;
+  color: #fff;
+  font-size: 1.33333em;
+  font-weight: bold;
+  border-right: 1px solid #222a2e;
+}
+.nav ul li a{
+  border-left: 1px solid #475a6c;
+}
+.nav ul li a.ac{
+  border-left: none;
+}
+.nav ul li a:hover{
+  color: #e44629;
+}
+/*******************************banner改***************************/
+.banner{
+	   position:relative;
+	   width:100%;
+	   height: 450px;
+	  overflow:hidden;
+   }
+   .banner ul li{
+	  position:absolute;
+	  width: 100%;
+	  top:0px;   
+   }
+   .banner ul li a{
+    width:100%;
+   }
+   .banner ul li a img{
+    width: 100%;
+   }
+   .btnLeft{
+	  width:45px;
+	  height:44px;
+	  background: url(../images/bg.png) -45px -178px no-repeat;
+	  position:absolute;   
+	  left:200px;
+	  top:43%;
+   }
+    .btnRight{
+	  width:44px;
+	  height:44px;
+	  background: url(../images/bg.png) 0px -178px no-repeat;
+	  position:absolute;  
+	  right:200px;
+	  top:43%; 
+   }
+  .lunBtn{
+	  position:absolute;
+	  width:120px;
+	  height:30px;
+	  right:50%;
+	  margin-right: -60px;
+	  bottom:0; 
+
+  }
+  .lunBtn div{
+	   width:14px;
+	   height:14px;
+	   background-color: white; 
+	   float:left;
+	   margin-left:10px;	 
+	   border-radius: 50%;
+  }
+  .lunBtn div.cur1{
+	  background-color: #e97c22;
+  }
+
+.icon{
+  margin: 0 auto;
+  max-width: 1200px;
+}
+.icon .item{
+  float: left;
+  width: 400px;
+  height: 320px;
+  text-align: center;
+
+}
+.icon .item a{
+  margin-top: 32px;
+  margin-bottom: 20px;
+}
+.icon .item h3{
+  color: #666666;
+  font-size: 1.5em;
+  margin-bottom: 14px;
+}
+.icon .item span{
+  margin-bottom: 20px;
+}
+.icon .item p{
+  line-height: 20px;
+  font-size: 1.16666em;
+  color: #8e8e8e;
+}
+.icon .item a,.icon .item span{
+  display: inline-block;
+}
+.icon .item span{
+  width: 40px;
+  height: 6px;
+}
+.icon .item span.g{
+
+background:#25ad60;
+}
+.icon .item span.o{
+
+background:#e97c22;
+}
+.icon .item span.b{
+
+background:#2780b8;
+}
+/*****************
+*********about us*****
+**************************/
+
+.about{
+  width: 100%;
+  height: 400px;
+}
+.about>div{
+  float: left;
+}
+.about .pic{
+  width: 50%;
+  height: 400px;
+  background:url(../images/up.png) 0 0 no-repeat;
+  background-size: 100% 100%;
+}
+.about .contant{
+  width: 50%;
+  height: 400px;
+  position: relative;
+  background-color: #eaeef1;
+}
+.info{
+  overflow: hidden;
+  background: #3a4950;
+  padding-left: 30px;
+  padding-bottom: 84px;
+}
+.info h2{
+  font-size: 2.16666em;
+  color: white;
+  line-height: 74px;
+  
+}
+.info h4{
+  font-weight: normal;
+  font-size: 1.5em;
+  color: #c0c4c5;
+  margin-bottom: 30px;
+}
+
+.info p{
+  font-size: 1.5em;
+  color: #c0c4c5;
+  line-height: 32px;
+  
+}
+
+.more{
+  height: 127px;
+}
+.more p{
+  text-indent: 70px;
+  font-size: 1.833333em;
+  color: #666666;
+  padding-top: 36px;
+}
+.more a.btn{
+  font-size: 1em;
+  color: #666666;
+  border: none;
+  margin-left: 140px;
+}
+.more a.btn span{
+  border-left-color: #666666;
+  
+}
+.contant .til{
+  position: absolute;
+  top:230px;
+  left:70px;
+  width: 442px;
+  height: 114px;
+  background: url(../images/msgg.png) 0 0 no-repeat;
+}
+.contant .til p{
+  text-indent: 40px;
+  line-height: 30px;
+  padding:10px 28px;
+  color: white;
+  font-size: 1em;
+}
+/*****************
+*********pro us*****
+**************************/
+h2.title{
+  text-align: center;
+  height: 98px;
+  line-height: 98px;
+  font-size: 2.16666em;
+  color: #666666;
+}
+h2.title span{
+  margin-left: 18px;
+  font-weight: normal;
+  font-size: 0.7em;
+}
+.pro{
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+.pro .box .item{
+ width: 400px;
+  text-align: center;
+padding-bottom: 20px;
+  cursor: pointer;
+  background: white;
+  border-bottom: 1px solid #f0f4f7;
+}
+
+
+.pro .box h3{
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-size: 1.33333em;
+  color:#666666;
+}
+.pro .box p{
+  line-height: 24px;
+  font-size: 1em;
+  color:#666666;
+}
+.pro .box .item em{
+  display: inline-block;
+  width: 40px;
+  height: 6px;
+  background: #e44629;
+  margin-bottom: 24px;
+}
+.pro .box .item div{
+  cursor: pointer;
+  position: relative;
+  width: 344px;
+ height: 208px;
+ overflow: hidden;
+ margin:0 auto;
+}
+a.btn{
+  margin-bottom: 48px;
+  margin-top: 26px;
+  display: inline-block;
+  padding: 10px 16px;
+  color: #e44629;
+  border: 1px solid #e44629;
+  font-weight: bold;
+  font-size: 1em;
+}
+a.btn:hover{
+  color: white;
+  background: #e44629;
+}
+a.btn:hover span{
+  color: white;
+  border-left: 5px solid white;
+}
+.traigel{
+  margin-left: 10px;
+  display: inline-block;
+  border: 5px solid transparent;
+  border-left: 5px solid red;
+}
+.pro .box .item div span{
+ display: inline-block;
+ width: 344px;
+ height: 208px;
+position: absolute;
+left: 0;
+top: 180px;
+background:rgba(102,108,110,0.5);
+}
+.pro .box .item div span a{
+ display: inline-block;
+ width: 344px;
+ height: 208px;
+}
+.pro .box .item div span img{
+ width: 50px;
+
+height: 50px;
+ margin-top: 80px;
+}
+.pro .box .item div img{
+ width: 344px;
+ height: 208px;
+
+}
+/*****************
+*********news*****
+**************************/
+.news{
+  position: relative;
+  background: url(../images/new.png) 0 0 no-repeat;
+  background-size: 100% 100%;
+}
+.news h2.new{
+  color: white;
+}
+.newbox{
+  width: 1200px;
+  margin: 0 auto;
+}
+.btn-mobox{
+  text-align: center;
+}
+.newbox>div{
+  width: 1200px;
+}
+.new-list{
+  width: 600px;
+  position: relative;
+  color: white;
+  box-sizing: border-box;
+  font-size: 1.3333333rem;
+}
+.new-list p{
+  line-height: 30px;
+}
+.new-list span{
+  display: block;
+}
+.new-list em{
+  position: absolute;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: white;
+  border-radius: 50%;
+  top: 16px;
+}
+div.newit:nth-child(2n-1)>div.new-list{
+  float: right;
+  padding-left: 30px;
+  border-left: 2px solid #eaeef1;
+}
+div.newit:nth-child(2n-1)>div.new-list em{
+  left: -12px;
+  text-indent: 50px;
+  border-left: 2px solid #eaeef1;
+}
+div.newit:nth-child(2n)>div.new-list{
+  padding-right: 30px;
+  margin-left: 2px;
+  text-align: right;
+   border-right: 2px solid #eaeef1;
+}
+div.newit:nth-child(2n)>div.new-list em{
+  right: -12px;
+}
+div.newit:nth-child(2n)>div.new-list span{
+  text-align: right;
+}
+
+/*****************
+*********contact*****
+**************************/
+.contact{
+  width: 100%;
+  background: #3a4950;
+}
+.inbox{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.msg{
+  max-width: 600px;
+}
+.msg div{
+ margin-bottom: 20px;
+}
+.msg div span{
+  display: inline-block;
+  width: 110px;
+  color:white;
+  font-weight: bold;
+  text-align: right;
+ font-size: 1em;
+}
+.msg div input{
+  height: 30px;
+  text-indent: 20px;
+  color: white;
+  width: 320px;
+}
+.sub {
+ text-align: center;
+}
+.sub button{
+ width: 164px;
+ height: 36px;
+ line-height: 36px;
+ color: white;
+ font-weight: bold;
+ background: #63a8ad;
+ letter-spacing: 12px;
+ border: none;
+ font-size: 1.66666666em;
+}
+.msg div textarea{
+  resize: none;
+  text-indent: 20px;
+  color: white;
+  padding: 10px;
+  width: 300px;
+}
+.msg div textarea,.msg div input{
+  margin-left: 16px;
+  background: #51626c;
+  border: none;
+}
+.con{
+  max-width: 600px;
+}
+.contact h2.title{
+  color:white;
+}
+.con p{
+  text-indent: 10px;
+  padding-left: 20px;
+  margin-left: 70px;
+  margin-bottom: 44px;
+  color: white;
+  font-size: 1.333333em;
+  font-weight: bold;
+ /* 因为p标签的高度就是字体高度，图标用的是背景图片，图标显示不完全，设置了p标签高度，其实这里图标完全可以用图片，不用设置成背景，写成背景更麻烦*/
+ display:block;
+ height:26px;
+}
+.con p.adr{
+  background: url(../images/bg.png) 0 0 no-repeat;
+}
+.con p.tel{
+  background: url(../images/bg.png) 0 -52px no-repeat;
+}
+.con p.mail{
+  background: url(../images/bg.png) 0 -26px no-repeat;
+}
+@media screen and (max-width:435px){
+  .sub button{
+ width: 100%;
+}
+    .small{
+display: block;
+text-align: center;
+}
+p.fot{
+  text-indent: 10px;
+}
+.small a{
+  letter-spacing: 30px;
+  display: block;
+  color:white;
+  border-bottom: 1px solid gray;
+  font-weight: bold;
+  padding:10px 0;
+  color: gray;
+  background:#f3f3f3;
+}
+div.headnav{
+      display: none;
+    }
+  div.banner{
+    height: 200px;
+    margin-top: 6px;
+  }
+  .banner ul li a img{
+    height: 200px;
+  }
+  .about,.icon,.news{
+    display: none;
+  }
+  div.inbox>div{
+    width: 100%;
+  }
+  div.msg,div.con{
+    float: none;
+  }
+  div.msg form div span{
+    width: 60px;
+  }
+  div.msg form div input{
+    width: 200px;
+  }
+  div.msg form div textarea{
+    width: 249px;
+  }
+  div.sub{
+    text-align: right;
+    margin-bottom: 30px;
+  }
+  div.con>p{
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+  .sub>button{
+    width: 30%;
+    letter-spacing: 4px;
+    margin-right: 30px;
+  }
+div.btnRight{
+  right: 10px;
+}
+div.btnLeft{
+  left: 10px;
+}
+}

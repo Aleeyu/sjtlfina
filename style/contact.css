@@ -1,0 +1,180 @@
+/*********************content***************/
+.info-list{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.info-list li{
+  text-align: center;
+  width: 372px;
+  background: #f0f4f7;
+  float: left;
+}
+.info-list li+li{
+  margin-left: 40px;
+}
+.info-list li strong{
+  display: inline-block;
+  margin-top: 26px;
+}
+.con-top{
+  padding-top: 60px;
+}
+.info-list strong{
+  color: #727273;
+  font-size: 1.33333em;
+  padding-top: 30px;
+}
+.info-list div{
+  padding: 20px 0 44px 0;
+}
+.info-list p{
+  color:#727273;
+  font-size: 1em;
+  padding-bottom: 42px;
+}
+.info-list span{
+  display: inline-block;
+  width: 40px;
+  height: 6px;
+  background: red;
+}
+.error {
+      color: gray;
+      margin-left: 10px;
+      font-size: 1.33333rem;
+      text-indent: 10px;
+    }
+li.info-1{
+  border-top: 8px solid #6dc7cf;
+}
+li.info-2{
+  border-top: 8px solid #e44629;
+}
+li.info-3{
+  border-top: 8px solid #6dc7cf;
+}
+span.info-1{
+background: #6dc7cf;
+}
+span.info-2{
+background: #e44629;
+}
+span.info-3{
+background: #6dc7cf;
+}
+.info-list strong.adr{
+  background: url(../images/adr.png) 4px 0 no-repeat;
+}
+.info-list strong.tel{
+  background: url(../images/tel.png) 4px 0 no-repeat;
+}
+.info-list strong.mail{
+  background: url(../images/mail.png) 4px 0 no-repeat;
+}
+.send,div.info{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.send>div{
+  width: 100%;
+}
+div.info >div{
+  margin-bottom: 10px;
+}
+form{
+  width: 100%;
+}
+.send input{
+  text-indent: 10px;
+  width: 490px;
+  height: 38px;
+  font-size: 1.5em;
+}
+.send div span{
+     margin-right: 10px; 
+  font-size: 1.33333em;
+  color: #727273;
+  display: inline-block;
+  width: 70px;
+  ver: top;
+  vertical-align: middle;
+  text-align: right;
+}
+div.info{
+  margin-bottom: 20px;
+}
+.msg textarea{
+    text-indent: 10px;
+  /* margin-left: 14px; */
+  height: 150px;
+  padding: 10px;
+  font-size: 1.5em;
+  resize: none;
+  width: 91%;
+}
+.msg span{
+  display: inline-block;
+ margin-bottom: 10px;
+}
+.butsend{
+  text-align: center;
+  padding:40px 0;
+}
+.butsend button{
+  border: none;
+  outline: none;
+  background: #63a8ad;
+  color: white;
+  line-height: 34px;
+  font-size: 1.8em;
+  letter-spacing: 10px;
+  display: inline-block;
+  width: 160px;
+  height: 50px;
+}
+@media screen and (max-width:435px){
+  .info-list li{
+  
+  float: none;
+
+}
+.info>div>span{
+  display: inline-block;
+  margin-bottom: 10px;
+}
+.con-top{
+  padding-top: 10px;
+}
+.info-list li+li{
+  margin-left: 0;
+
+}
+.info-list li{
+  margin-bottom: 20px;
+}
+div.info{
+  padding-bottom: 0;
+}
+.msg>div span{
+
+  display: inline-block;
+  text-indent: 30px;
+  margin-bottom: 10px;
+}
+
+.info>div{
+  margin-left: 20px;
+  width: 80%;
+  margin-top: 10px;
+   margin-bottom: 10px;
+  float: none;
+}
+.send input{
+  width: 100%;
+}
+.msg>div>textarea{
+
+  width: 76%;
+ margin-left: 20px;
+}
+};

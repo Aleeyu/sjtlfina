@@ -1,0 +1,187 @@
+*{
+	margin:0;
+	padding:0;
+
+		}
+		li{
+			list-style: none;
+		}
+		
+		body{
+			background: #F7F7F7;
+		}
+		.head{
+			width: 1200px;
+			
+			
+			margin: 0 auto;
+			margin-bottom: 10px;
+		}
+		.head h1{
+			text-align: center;
+			color: white;
+			background: #2C3C66;
+			padding: 0;
+			margin: 0;
+			height: 80px;
+			line-height: 80px;
+			
+		}
+		.main{
+			width: 1200px;
+			margin: 0 auto;
+			
+			
+		}
+		.liuyanitem{
+			margin-bottom: 10px;
+		}
+		.liuyanitem .newitem{
+			margin-bottom: 0;
+		}
+		.main:after{
+			content: "";
+			clear: both;
+			display: table;
+		}
+		.sidenav{
+			width: 200px;
+			height: 500px;
+			background: #EDEFEF;
+			float: left;
+			padding: 10px;
+			color: #666666;
+		}
+		.sidenav ul li{
+			margin-bottom: 4px;
+			
+			line-height: 30px;
+			text-align: center;
+			letter-spacing: 5px;
+			font-size: 1.2rem;
+			
+			cursor: pointer;
+			
+			
+		}
+		.sidenav ul li.active{
+			background: #33A0B3;
+			
+			
+		}
+		.sidenav ul li:hover{
+			background: #33A0B3;
+		}
+		.box{
+			float: right;
+			width: 960px;
+			height: 500px;
+			/*background: blue;*/
+			padding: 0 0 10px 10px;
+			
+		}
+		.guanli{
+			border: 1px solid #ccc;
+			padding: 20px;
+		}
+		form{
+			padding: 20px;
+		}
+		form p{
+			line-height: 50px;
+			font-weight: bold;
+			line-height: 50px;
+		}
+		form input{
+			margin-left: 20px;
+			width: 100%;
+			height: 30px;
+			text-indent: 20px;
+		}
+		form textarea{
+			
+			width: 100%;
+			
+			text-indent: 20px;
+		}
+		form input[type="submit"]{
+			
+			width: 100px;
+			
+		}
+		form input[type="radio"]{
+			
+			width: 30px;
+			
+		}
+		label{
+			display: inline-block;
+			line-height: 30px;
+
+		}
+		.tj:after{
+			clear: both;
+			display: table;
+			content: "";
+
+		}
+		.tj{
+			padding: 20px 0;
+		}
+		.tj input{
+			float: right;
+			text-align: center;
+		}
+		.newitem{
+			padding: 10px 0;
+			overflow: hidden;
+			cursor: pointer;
+			margin-bottom:4px;
+			color: #666666;
+			background: #CEE9EE;
+		}
+		.newitem:hover{
+			background: #33A0B3;
+		}
+		.newitem:hover p{
+			color: white;
+		}
+		.newitem:hover div{
+			color: red;
+		}
+		
+		.newitem p{
+			margin-right: 30px;
+			margin-left: 20px;
+			float: left;
+			line-height: 34px;
+		}
+		.newitem div{
+			float: right;
+			width: 50px;
+			font-size: 30px;
+			text-align: center;
+			margin-right: 10px;
+		}
+		.leibie{
+			padding: 4px 0 4px 30px;
+		}
+		.leibie:after{
+			clear: both;
+			display: table;
+			content: "";
+		}
+		.leibie label{
+			float: left;
+		}
+		.leibie input{
+			float: left;
+		}
+		.ite-msg{
+			padding: 10px;
+			text-indent: 30px;
+			color:#666666;
+			font-size: 15px;
+			line-height: 20px;
+			background: #CFE0E2;
+		}

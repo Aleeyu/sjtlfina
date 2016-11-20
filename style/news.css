@@ -1,0 +1,139 @@
+/*********************content***************/
+.bg{
+  background: url(../images/img-news/bg.png) 0 0 no-repeat;
+  background-size: 100% 300px;
+text-align: center;
+  height: 300px;
+}
+.new{
+  width: 680px;
+  padding-top: 60px;
+  margin: 0 auto;
+}
+.newwarp{
+  padding-top: 20px;
+
+  width: 1200px;
+ height: 540px;
+  margin: 0 auto;
+}
+.newleft{
+  width:500px;
+  
+}
+
+.imgnow >h1{
+  font-size: 1.8rem;
+  padding: 10px 0;
+  color: #666666;
+  text-indent: 30px;
+  border-left: 10px solid #e43933;
+  margin-bottom: 10px;
+}
+.nowtitle{
+  width: 468px;
+  padding: 8px 16px;
+}
+.newleft img{
+  width:500px;
+  height: 316px;
+ 
+}
+.nowcontent>p{
+  text-indent: 40px;
+  line-height: 24px;
+  color: #666666;
+}
+.list-time{
+  width: 76px;
+  height: 54px;
+  line-height: 22px;
+  padding-top: 6px;
+  border-radius: 10px;
+  text-align:center;
+  background: #eaeef1;
+  color: #666666;
+}
+.list-content{
+  width: 474px;
+  padding-left: 16px;
+  height: 60px;
+}
+.list-content p{
+  float: left;
+  line-height: 30px;
+  overflow: hidden;
+  height:60px;
+  width: 400px;
+  font-size: 1.16666666em;
+  color:#666666;
+}
+.list-content a{
+  float: left;
+  padding-top: 38px;
+  
+  padding-left: 30px;
+  color: #848484;
+}
+.new-list{
+  width: 600px;
+  margin-bottom: 20px;
+}
+.nowtitle{
+  color: #666666;
+  font-size: 1.4rem;
+}
+.list-time{
+  background: #e44629;
+  color: white;
+  cursor: pointer;
+}
+.control{
+  text-align: center;
+  margin: 0 auto;
+  width: 1200px;
+  padding-bottom: 50px;
+}
+.control a.btn-bt{
+  border: 1px solid #666666;
+  border-radius: 10px;
+  padding: 10px 16px;
+  font-size: 1.66666em;
+  color: #666666;
+}
+.control a.btn-bt:hover{
+  color: white;
+  background: #e44629;
+}
+.control b.btn{
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  background: #eaeef1;
+  border-radius: 50%;
+}
+.control b.btn+b.btn{
+  margin-left: 10px;
+}
+.control b.btn:hover{
+  background: #e44629;
+  color: white;
+  box-shadow: 0 0 4px 4px #dfb4ac;
+}
+b{
+  display: inline-block;
+  cursor: pointer;
+}
+.control b.act{
+  background: #e44629;
+  color: white;
+  box-shadow: 0 0 4px 4px #dfb4ac;
+}
+.btn-prev{
+  margin-right: 40px;
+}
+.btn-next{
+  margin-left: 40px;
+  
+}
