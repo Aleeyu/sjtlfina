@@ -44,6 +44,7 @@ time, mark, audio, video {
   top:80px;
 }
 .side-qq{
+  position: relative;
   height: 78px;
   background: url(../images/qq.jpg) no-repeat #6dc7cf;
   position: absolute;
@@ -51,7 +52,11 @@ time, mark, audio, video {
   top:0;
 }
 .side-qq a{
-  color: white;
+  height: 78px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: transparent;
 }
 .error {
       color: white;
