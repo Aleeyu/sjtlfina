@@ -41,11 +41,11 @@ time, mark, audio, video {
   border-bottom: 2px solid gray;
   position: absolute;
   left: 100px;
-  top:52px;
+  top:80px;
 }
 .side-qq{
-  height: 50px;
-  background: url(../images/bg.png) 0 -732px no-repeat #6dc7cf;
+  height: 78px;
+  background: url(../images/qq.jpg) no-repeat #6dc7cf;
   position: absolute;
   left: 100px;
   top:0;

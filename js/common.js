@@ -15,8 +15,8 @@ function tab(elee){
 ////////////////////侧边联系///////////////////
 sidebar('.side-phone','mouseover','-14px');
 sidebar('.side-phone','mouseout','100px');
-sidebar('.side-qq','mouseover','0px');
-sidebar('.side-qq','mouseout','100px');
+// sidebar('.side-qq','mouseover','0px');
+// sidebar('.side-qq','mouseout','100px');
 function sidebar(ele,mouse,top){
     $(".side-bar").on(mouse, ele, function(event) {
     $(this).stop().animate({
